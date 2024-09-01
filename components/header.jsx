@@ -11,15 +11,17 @@ export default function Header() {
   const headerRef = useRef();
 
   useEffect(() => {
-    function handleScroll() {
+    // Bu kod sadece tarayıcıda çalışacaktır
+    const handleScroll = () => {
       const position = window.scrollY;
       if (position > 50) {
         setHeaderScroll(true);
       } else {
         setHeaderScroll(false);
       }
-    }
+    };
 
+    // Sayfa yüklendiğinde ve scroll event'e abone olun
     window.addEventListener('scroll', handleScroll);
 
     // Temizlik işlevi: event listener'ı kaldırır
