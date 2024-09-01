@@ -21,14 +21,16 @@ export default function Provider({ children }) {
   }
 
   useEffect(() => {
-    setScreenHeight(window.innerHeight);
-
-    const handleResize = () => {
+    if (typeof window !== 'undefined') {
       setScreenHeight(window.innerHeight);
-    };
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+      const handleResize = () => {
+        setScreenHeight(window.innerHeight);
+      };
+
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }
   }, []);
 
   useEffect(() => {
@@ -55,66 +57,74 @@ export default function Provider({ children }) {
   }, []);
 
   useEffect(() => {
-    const handleScroll = () => {
-      requestAnimationFrame(() => {
-        const etiketElements = document.querySelectorAll('.etiket');
-        const images = document.querySelectorAll('.links img');
-        const textChange = document.querySelector('.text-change');
-        const hakkimda = document.querySelector('.about-me');
-        const works = document.querySelectorAll('.work');
+    if (typeof window !== 'undefined') {
+      const handleScroll = () => {
+        requestAnimationFrame(() => {
+          const etiketElements = document.querySelectorAll('.etiket');
+          const images = document.querySelectorAll('.links img');
+          const textChange = document.querySelector('.text-change');
+          const hakkimda = document.querySelector('.about-me');
+          const works = document.querySelectorAll('.work');
 
-        etiketElements.forEach((etiket) => {
-          const etiketPosition = etiket.getBoundingClientRect();
-          if (etiketPosition.top < screenHeight && etiketPosition.bottom > 0) {
-            etiket.classList.add('part2');
-          } else {
-            etiket.classList.remove('part2');
+          etiketElements.forEach((etiket) => {
+            const etiketPosition = etiket.getBoundingClientRect();
+            if (
+              etiketPosition.top < screenHeight &&
+              etiketPosition.bottom > 0
+            ) {
+              etiket.classList.add('part2');
+            } else {
+              etiket.classList.remove('part2');
+            }
+          });
+
+          images.forEach((img) => {
+            const imgPosition = img.getBoundingClientRect();
+            if (imgPosition.top < screenHeight && imgPosition.bottom > 0) {
+              img.classList.add('active');
+            } else {
+              img.classList.remove('active');
+            }
+          });
+
+          works.forEach((work) => {
+            const workPosition = work.getBoundingClientRect();
+            if (workPosition.top < screenHeight && workPosition.bottom > 0) {
+              work.classList.add('show');
+            } else {
+              work.classList.remove('show');
+            }
+          });
+
+          if (textChange) {
+            const changePosition = textChange.getBoundingClientRect();
+            if (
+              changePosition.top < screenHeight &&
+              changePosition.bottom > 0
+            ) {
+              textChange.classList.add('part1');
+            } else {
+              textChange.classList.remove('part1');
+            }
+          }
+
+          if (hakkimda) {
+            const contentPosition = hakkimda.getBoundingClientRect();
+            if (
+              contentPosition.top < screenHeight &&
+              contentPosition.bottom > 0
+            ) {
+              hakkimda.classList.add('show');
+            } else {
+              hakkimda.classList.remove('show');
+            }
           }
         });
+      };
 
-        images.forEach((img) => {
-          const imgPosition = img.getBoundingClientRect();
-          if (imgPosition.top < screenHeight && imgPosition.bottom > 0) {
-            img.classList.add('active');
-          } else {
-            img.classList.remove('active');
-          }
-        });
-
-        works.forEach((work) => {
-          const workPosition = work.getBoundingClientRect();
-          if (workPosition.top < screenHeight && workPosition.bottom > 0) {
-            work.classList.add('show');
-          } else {
-            work.classList.remove('show');
-          }
-        });
-
-        if (textChange) {
-          const changePosition = textChange.getBoundingClientRect();
-          if (changePosition.top < screenHeight && changePosition.bottom > 0) {
-            textChange.classList.add('part1');
-          } else {
-            textChange.classList.remove('part1');
-          }
-        }
-
-        if (hakkimda) {
-          const contentPosition = hakkimda.getBoundingClientRect();
-          if (
-            contentPosition.top < screenHeight &&
-            contentPosition.bottom > 0
-          ) {
-            hakkimda.classList.add('show');
-          } else {
-            hakkimda.classList.remove('show');
-          }
-        }
-      });
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }
   }, [screenHeight]);
 
   return (
