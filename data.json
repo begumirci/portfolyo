@@ -1,0 +1,249 @@
+[
+  {
+    "id": 1,
+    "title": "Gratis E-Ticaret Sitesi",
+    "mainImg": "/gratis-img/Ekran Resmi 2024-03-19 13.13.59.png",
+    "description": "Bu projede, Gratis'in kapsamlı bir klonunu geliştirdim ve bunu React ile birlikte Supabase kullanarak hayata geçirdim. Kullanıcılar, hesap oluşturabilir, oturum açabilir ve şifrelerini değiştirebilirken, aynı zamanda favori ürünleri takip edebilir, siparişlerini görebilir ve sepetlerini yönetebilirler. Üstelik, ürünlerin fiyat ve markaya göre filtrelenmesi gibi işlevlerin yanı sıra, /admin sayfasına gidildiğinde Supabase üzerinden kolayca yeni ürünler ekleyebilme imkanı da bulunuyor.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "React Tabanlı Kullanıcı Arayüzü",
+      "Supabase",
+      "Authentication",
+      "Mobil Uyumlu Arayüz (Responsive)",
+      "React Hooks Kullanımı",
+      "React Router",
+      "Arama Filtresi"
+    ],
+    "liveLink": "https://gratis-clone.netlify.app/",
+    "githubLink": "https://github.com/begumirci/gratisClone",
+    "images": [
+      "/gratis-img/register.png",
+      "/gratis-img/bos.png",
+      "/gratis-img/basket.png",
+      "/gratis-img/filter.png",
+      "/gratis-img/order.png",
+      "/gratis-img/orders.png",
+      "/gratis-img/fav.png",
+      "/gratis-img/fav2.png",
+      "/gratis-img/password.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "POKEDEX",
+    "mainImg": "/marvel-pokemon-img/poke-main.png",
+    "description": "Bu proje, Pokémon isimlerini ve özelliklerini listelemek için bir arayüz sunar ve her Pokémon öğesine tıklandığında detaylarını gösterir. React kullanılarak oluşturulan bu uygulama, Pokémon API'den veri çeker ve kullanıcıya zengin bir deneyim sunar. Kullanıcılar, her bir Pokémon hakkında detaylı bilgi edinebilir ve sevdikleri Pokémon'ları keşfedebilirler.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "React Tabanlı Kullanıcı Arayüzü",
+      "Pokémon API (PokéAPI)",
+      "Fetch API",
+      "Mobil Uyumlu Arayüz (Responsive)",
+      "React Hooks Kullanımı",
+      "React Context API"
+    ],
+    "liveLink": "https://pokemon-karakterleri.netlify.app/",
+    "githubLink": "https://github.com/begumirci/Pokemon",
+    "images": [
+      "/marvel-pokemon-img/Ekran Resmi 2024-04-06 01.49.44.png",
+      "/marvel-pokemon-img/Ekran Resmi 2024-04-06 01.49.25.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Marvel Karakter Listesi",
+    "mainImg": "/marvel-pokemon-img/marvel-main.png",
+    "description": "Bu proje, kullanıcının Marvel karakterlerini arayıp bulabileceği bir web uygulamasıdır. React.js kullanarak geliştirilmiştir. Kullanıcılar, arama kutusuna karakterin adını yazarak istedikleri karakterin ayrıntılarını görebilirler. Ayrıca, herhangi bir karaktere tıkladıklarında, kullanıcılar karakterin Marvel'in resmi web sitesindeki ayrıntılı açıklamasına yönlendirilirler. Uygulama, Marvel'in resmi API'sini kullanarak karakter verilerini alır ve kullanıcı arayüzünde gösterir. Axios kütüphanesi aracılığıyla API ile iletişim kurulur ve veriler alınır. HTML ve CSS kullanılarak arayüz oluşturulmuş, React bileşenleriyle yapılandırılmıştır.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "React Tabanlı Kullanıcı Arayüzü",
+      "Marvel API",
+      "Arama Filtresi",
+      "Mobil Uyumlu Arayüz (Responsive)",
+      "React Hooks Kullanımı",
+      "React Context API"
+    ],
+    "liveLink": "https://marvel-karakterleri.netlify.app/",
+    "githubLink": "https://github.com/begumirci/Marvel",
+    "images": ["/marvel-pokemon-img/Ekran Resmi 2024-04-06 01.53.57.png"]
+  },
+  {
+    "id": 4,
+    "title": "POMODORO",
+    "mainImg": "/pomodoro-img/pomodoro.png",
+    "description": "Bu uygulama, klasik Pomodoro zaman yönetimi tekniğini modern bir dokunuşla sunar. Çalışma ve mola sürelerini sesli bildirimlerle kullanıcıya hatırlatarak verimliliği artırmayı hedefler. Sesli bildirimler, kullanıcıların uygulama penceresi kapalıyken bile zamanlarını etkin bir şekilde yönetmelerine yardımcı olur.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "React Tabanlı Kullanıcı Arayüzü",
+      "Özelleştirilebilir Zamanlayıcılar",
+      "Sesli Bildirimler (useSound)",
+      "React Hooks Kullanımı"
+    ],
+    "figmaLink": "https://www.figma.com/design/W0tEOx2H5JRTYH8BgXEMZV/pomodoro-app?node-id=0-196&t=cn5bJMztJ0iSdGQF-0",
+    "liveLink": "https://podoromo.vercel.app/",
+    "githubLink": "https://github.com/begumirci/pomodoro",
+    "images": ["/pomodoro-img/Ekran Resmi 2024-07-17 23.01.03.png"]
+  },
+  {
+    "id": 5,
+    "title": "Coffeeroasters",
+    "mainImg": "/cofferoasters-img/main.png",
+    "description": "Bu uygulama, kullanıcıların farklı kahve seçeneklerini kolayca seçip bir araya getirmelerini sağlar. Kullanıcılar, tek tek girdikleri kahve seçeneklerini tek bir input alanında toplayarak kendi özel kahve kombinasyonlarını oluşturabilirler. Bu, kullanıcı dostu bir arayüz ve sezgisel bir etkileşim sunar.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "React Tabanlı Kullanıcı Arayüzü",
+      "Mobil Uyumlu Arayüz (Responsive)",
+      "Canlı Önizleme",
+      "React Hooks Kullanımı"
+    ],
+    "figmaLink": "https://www.figma.com/design/YukgtovtBkrbDYjiQUVDlS/coffeeroasters-subscription-site?node-id=0-1231&t=vcNdINaCAf81YeLP-0",
+    "liveLink": "https://coffeeroasters-iota-sand.vercel.app/",
+    "githubLink": "https://github.com/begumirci/coffeeroasters",
+    "images": [
+      "/cofferoasters-img/Ekran Resmi 2024-07-17 22.56.13.png",
+      "/cofferoasters-img/Ekran Resmi 2024-07-17 22.55.38.png"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "XOX OYUNU",
+    "mainImg": "/xox-memory-img/Ekran Resmi 2024-03-18 18.44.01.png",
+    "description": "Bu projede, hem Figma'da tasarımını oluşturduğum hem de JavaScript kullanarak geliştirdiğim bir Karşılıklı XOX (Tic Tac Toe) oyununu hayata geçirdim. Kullanıcılar, arkadaşları veya aile üyeleriyle karşılıklı olarak XOX oynamak için bu uygulamayı kullanabilirler. Ayrıca kullanıcılar oyun sırasında puanlarını takip edebilir ve kazananları belirleyebilirler.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "JavaScript",
+      "Mobil Uyumlu Arayüz (Responsive)"
+    ],
+    "figmaLink": "https://www.figma.com/file/ChUkQBrzLQwUigH3L2R7Qu/tic-tac-toe?type=design&node-id=0-1&mode=design&t=rnsJVGIM1HhQoO0G-0",
+    "liveLink": "https://xox-memory-games.netlify.app/",
+    "githubLink": "https://github.com/begumirci/games",
+    "images": [
+      "/xox-memory-img/Ekran Resmi 2024-03-18 17.08.37.png",
+      "/xox-memory-img/Ekran Resmi 2024-03-18 17.09.00.png",
+      "/xox-memory-img/Ekran Resmi 2024-03-18 17.09.31.png"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "HAFIZA OYUNU",
+    "mainImg": "/xox-memory-img/Ekran Resmi 2024-03-18 18.14.56.png",
+    "description": "Bu projede, JavaScript kullanarak bir hafıza oyunu geliştirdim ve oyuncuların en yüksek skorlarını saklamak için Supabase'i entegre ettim. Oyun tasarımını, kullanıcı dostu bir arayüz oluşturmak için kendi tasarım yeteneklerimle hazırladım.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "JavaScript",
+      "Mobil Uyumlu Arayüz (Responsive)",
+      "Supabase kullanarak veritabanı yönetimi ve en yüksek skorun saklandı"
+    ],
+    "liveLink": "https://xox-memory-games.netlify.app/memory",
+    "githubLink": "https://github.com/begumirci/games",
+    "images": ["/xox-memory-img/Ekran Resmi 2024-03-18 18.17.52.png"]
+  },
+  {
+    "id": 8,
+    "title": "E-TİCARET SİTESİ",
+    "mainImg": "/e-ticaret-img/main.png",
+    "description": "Bu proje, React ve Ant Design gibi teknolojileri kullanarak e-ticaret platformları geliştirmenin temel becerilerini sergilemek amacıyla oluşturulmuştur. Kullanıcıların çevrimiçi alışveriş deneyimini iyileştirmek ve platformun kullanımını kolaylaştırmak için tasarlanmıştır.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "React",
+      "Local Storage",
+      "Arama Filtresi",
+      "Ant Design",
+      "Admin Paneli",
+      "Mobil Uyumlu Arayüz (Responsive)"
+    ],
+    "liveLink": "https://trendstore-shop.netlify.app/",
+    "githubLink": "https://github.com/begumirci/ShoppingReact",
+    "images": [
+      "/e-ticaret-img/Ekran Resmi 2024-03-26 16.56.05.png",
+      "/e-ticaret-img/Ekran Resmi 2024-03-26 16.56.05.png"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "GÜNLERE GÖRE YAPILACAKLAR LİSTESİ",
+    "mainImg": "/todos-img/todoApp.png",
+    "description": "Bu web sitesi, kullanıcıların günlük işlerini planlamak ve organize etmek için kullanabilecekleri basit bir günlük planlama uygulamasıdır. Kullanıcılar, istedikleri günü seçerek o gün için yapılacak işleri ekleyebilir, işleri tamamladıkça işaretleyebilir ve gerektiğinde işleri silebilirler. Web sitesi, modern bir tarayıcıda çalışırken, kullanıcıların verilerini kaydetmek ve web sitesini sonraki ziyaretlerinde devam ettirebilmeleri için yerel depolama teknolojisinden yararlanır. Bu sayede, kullanıcılar her zaman işlerini güncel tutabilir ve istedikleri zaman erişebilirler.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "JavaScript",
+      "Mobil Uyumlu Arayüz (Responsive)"
+    ],
+    "liveLink": "https://do-things.netlify.app/",
+    "githubLink": "https://github.com/begumirci/todoApp2",
+    "images": ["/todos-img/todo-2.png", "/todos-img/todo-1.png"]
+  },
+  {
+    "id": 10,
+    "title": "YAPILACAKLAR LİSTESİ",
+    "mainImg": "/todos-img/todos-main.png",
+    "description": "Bu projede kullanıcılar, boş bir alana yapacakları işleri girebilir ve 'Ekle' düğmesine tıklayarak listeye ekleyebilirler. Yapılan işlerin üzerine tıklayarak işaretlenebilir ve tamamlanan işler 'Tamamlandı' bölümünde gösterilir. İşaretlenen tamamlanan işler, istenildiğinde 'Sil' düğmesiyle kaldırılabilir. Tarayıcı kapatılsa bile, kullanıcıların eklediği işler yerel depolama (local storage) kullanılarak saklanır ve bir sonraki ziyaretlerinde yeniden görüntülenir. Bu sayede kullanıcılar, yapılan ve yapılmayan işleri kolayca takip edebilirler ve işlerini yönetebilirler.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "Javascript",
+      "Local Storage",
+      "Mobil Uyumlu Arayüz (Responsive)"
+    ],
+    "liveLink": "https://do-that.netlify.app/",
+    "githubLink": "https://github.com/begumirci/todoApp",
+    "images": [
+      "/todos-img/Ekran Resmi 2024-03-19 10.22.02.png",
+      "/todos-img/Ekran Resmi 2024-03-19 10.22.55.png"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "KULLANICI BİLGİ YÖNETİM SİSTEMİ",
+    "mainImg": "/formwork-img/form-main.png",
+    "description": "Bu proje, kullanıcıların isim, soyisim, e-posta ve cep telefonu gibi kişisel bilgilerini yönetmelerine olanak tanıyan basit ve kullanıcı dostu bir web uygulamasıdır. Kullanıcılar, bu uygulama aracılığıyla bilgileri ekleyebilir, düzeltebilir, silebilir ve arayabilir.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "React",
+      "Filtreleme",
+      "Local Storage",
+      "Mobil Uyumlu Arayüz (Responsive)"
+    ],
+    "liveLink": "https://people-informations.netlify.app/",
+    "githubLink": "https://github.com/begumirci/formWork",
+    "images": [
+      "/formwork-img/Ekran Resmi 2024-03-20 17.30.07.png",
+      "/formwork-img/Ekran Resmi 2024-03-20 17.43.45.png"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "VERGİ HESAPLAMA",
+    "mainImg": "/salary-img/salary-main.png",
+    "description": "Bu proje, kullanıcıların isim ve maaş bilgilerini girmelerine olanak tanır ve ardından vergi hesaplamasını gerçekleştirir. Kullanıcı bilgileri, güvenli bir şekilde tarayıcıların local storage'ına saklanır ve yerel olarak tutulur. Ayrıca arama filtresi, kullanıcıların yazdıkları kelimeyle başlayan ürünleri otomatik olarak listeler.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "React",
+      "Arama Filtresi",
+      "Local Storage",
+      "Mobil Uyumlu Arayüz (Responsive)"
+    ],
+    "liveLink": "https://vergi-hesaplama.netlify.app/",
+    "githubLink": "https://github.com/begumirci/workerList",
+    "images": ["/salary-img/Ekran Resmi 2024-03-20 00.36.11.png"]
+  },
+  {
+    "id": 13,
+    "title": "SPACE TOURİSM",
+    "mainImg": "/space-img/space-main.png",
+    "description": "Bu web sitesi, dikkat çekici ve estetik açıdan etkileyici bir deneyim sunmak amacıyla özgün bir Figma tasarımından esinlenerek hayata geçirilmiştir. Geliştirme sürecinde ise modern web teknolojilerinden biri olan React kullanılarak site, kullanıcılar için daha etkileşimli ve kolay kullanılabilir bir şekilde oluşturulmuştur.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "React",
+      "React Hooks Kullanımı",
+      "Mobil Uyumlu Arayüz (Responsive)"
+    ],
+    "figmaLink": "https://www.figma.com/file/s9Lo1dDC4dSgWbUVsmm76f/space-tourism-website?type=design&node-id=0-1137&mode=design&t=nvVgB1g0zfQDaCst-0",
+    "liveLink": "https://uzay-turizmi.netlify.app/",
+    "githubLink": "https://github.com/begumirci/SpaceTourismWeb",
+    "images": [
+      "/space-img/Ekran Resmi 2024-03-18 14.04.09.png",
+      "/space-img/Ekran Resmi 2024-03-18 16.00.40.png",
+      "/space-img/Ekran Resmi 2024-03-11 17.27.50.png"
+    ]
+  }
+]
