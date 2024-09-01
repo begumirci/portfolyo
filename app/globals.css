@@ -147,14 +147,26 @@ li {
 /* YUKARI ÇIKMA */
 .up {
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   bottom: 50px;
   right: 40px;
   z-index: 99;
   cursor: pointer;
   background-color: transparent;
   border: none;
-  display: none;
 }
+
+.up svg {
+  transition: all 0.5s ease;
+}
+
+.up:hover svg {
+  stroke: var(--red-color);
+  stroke-width: 2;
+}
+
 /* LOADİNG */
 .loading-screen {
   position: fixed;
@@ -188,6 +200,10 @@ li {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.page-detail {
+  animation: slideLeftPage 1s forwards;
 }
 /* HEADER */
 .desktop {
