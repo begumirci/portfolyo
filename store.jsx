@@ -1,4 +1,5 @@
 'use client';
+
 import { createContext, useState, useRef, useEffect } from 'react';
 
 export const ContextData = createContext();

@@ -8,7 +8,7 @@ export default function Header() {
   const { toggleMenu, isMenuOpen } = useContext(ContextData);
   const [headerScroll, setHeaderScroll] = useState(false);
 
-  const headerRef = useRef();
+  const headerRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,7 +20,6 @@ export default function Header() {
 
     window.addEventListener('scroll', handleScroll);
 
-    // Temizlik işlevi
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
