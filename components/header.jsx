@@ -9,14 +9,25 @@ export default function Header() {
   const [headerScroll, setHeaderScroll] = useState(false);
 
   const headerRef = useRef();
-  const position = window.scrollY;
+
   useEffect(() => {
-    if (position > 50) {
-      setHeaderScroll(true);
-    } else {
-      setHeaderScroll(false);
+    function handleScroll() {
+      const position = window.scrollY;
+      if (position > 50) {
+        setHeaderScroll(true);
+      } else {
+        setHeaderScroll(false);
+      }
     }
-  }, [position]);
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Temizlik işlevi: event listener'ı kaldırır
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div>
       <div className='mobil-all'>
