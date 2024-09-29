@@ -2,7 +2,7 @@ export default function LearnSide() {
   return (
     <div className='parallax2-div' id='ogrendiklerim'>
       <div className='learn-things'>
-        <div className='etiket'>
+        <div style={{ marginTop: '6rem' }} className='etiket'>
           <h5>ÖĞRENDİKLERİM</h5>
         </div>
         <div className='container'>

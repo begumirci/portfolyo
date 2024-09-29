@@ -34,7 +34,7 @@ export default function AboutMe() {
               </p>
             </div>
           </div>
-          <img className='avatar' src='/images/pp.jpeg' alt='pp' />
+          {/* <img className='avatar' src='/images/pp.jpeg' alt='pp' /> */}
         </div>
       </div>
     </div>

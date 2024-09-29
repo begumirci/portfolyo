@@ -453,7 +453,7 @@ li {
   margin: 0 auto;
 }
 .avatar {
-  width: 30%;
+  width: 20%;
   height: auto;
 }
 .about-div {
@@ -462,6 +462,7 @@ li {
 
 .about {
   color: #fff;
+  margin-bottom: 5rem;
 
   & h2 {
     margin-top: 3rem;
