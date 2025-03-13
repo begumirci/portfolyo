@@ -1,5 +1,23 @@
 [
   {
+    "id": 0,
+    "title": "Figma Tasarımı",
+    "mainImg": "/qulak-img/Ekran Resmi 2025-03-13 00.11.40.png",
+    "description": "Bu projede, React ve Bootstrap kullanarak modern ve duyarlı (responsive) bir web sitesi geliştirdim. React’in bileşen tabanlı yapısını ve Bootstrap’in güçlü tasarım bileşenlerini birleştirerek kullanıcı dostu ve estetik bir arayüz oluşturdum.",
+    "projeInfo": [
+      "HTML5, CSS3",
+      "React Tabanlı Kullanıcı Arayüzü",
+      "Bootstrap",
+      "Mobil Uyumlu Arayüz (Responsive)",
+      "React Hooks Kullanımı",
+      "Dinamik Yapı"
+    ],
+    "figmaLink": "https://www.figma.com/proto/NbOVj51U2geMezGL7LLgVg/Website-%26-App-(Community)-(Copy)?node-id=4-182478",
+    "liveLink": "https://qulak.vercel.app/",
+    "githubLink": "https://github.com/begumirci/qulak",
+    "images": ["/public/qulak-img/Ekran Resmi 2025-03-13 00.12.45.png"]
+  },
+  {
     "id": 1,
     "title": "Gratis E-Ticaret Sitesi",
     "mainImg": "/gratis-img/Ekran Resmi 2024-03-19 13.13.59.png",
